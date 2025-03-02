@@ -38,6 +38,7 @@ document.getElementById('btn-1').addEventListener('click',function(){
     alert('Board updated Successfully.')
     document.getElementById('btn-1').style.backgroundColor= 'white';
     document.getElementById('btn-1').style.color= 'gray';
+    document.getElementById('btn-1').disabled= true;
     document.getElementById('p-1').innerText='you have completed'+ ' '+ fixTitle.innerText+ ' '+ 'at' +' ' + getTime();
     document.getElementById('p-1').style.backgroundColor= '#e2e8f0';
     document.getElementById('p-1').style.fontSize= '14px';
@@ -54,6 +55,7 @@ document.getElementById('btn-2').addEventListener('click',function(){
     alert('Board updated Successfully.')
     document.getElementById('btn-2').style.backgroundColor= 'white';
     document.getElementById('btn-2').style.color= 'gray';
+    document.getElementById('btn-2').disabled= true;
     document.getElementById('p-2').innerText='you have completed'+ ' '+ darkTitle.innerText+ ' '+ 'at' +' ' + getTime();
     document.getElementById('p-2').style.backgroundColor= '#e2e8f0';
     document.getElementById('p-2').style.fontSize= '14px';
@@ -70,6 +72,7 @@ document.getElementById('btn-3').addEventListener('click',function(){
     alert('Board updated Successfully.')
     document.getElementById('btn-3').style.backgroundColor= 'white';
     document.getElementById('btn-3').style.color= 'gray';
+    document.getElementById('btn-3').disabled= true;
     document.getElementById('p-3').innerText='you have completed'+ ' '+ optimizeTitle.innerText+ ' '+ 'at' +' ' + getTime();
     document.getElementById('p-3').style.backgroundColor= '#e2e8f0';
     document.getElementById('p-3').style.fontSize= '14px';
@@ -86,6 +89,7 @@ document.getElementById('btn-4').addEventListener('click',function(){
     alert('Board updated Successfully.')
     document.getElementById('btn-4').style.backgroundColor= 'white';
     document.getElementById('btn-4').style.color= 'gray';
+    document.getElementById('btn-4').disabled= true;
     document.getElementById('p-4').innerText='you have completed'+ ' '+ emojiTitle.innerText+ ' '+ 'at' +' ' + getTime();
     document.getElementById('p-4').style.backgroundColor= '#e2e8f0';
     document.getElementById('p-4').style.fontSize= '14px';
@@ -102,6 +106,7 @@ document.getElementById('btn-5').addEventListener('click',function(){
     alert('Board updated Successfully.')
     document.getElementById('btn-5').style.backgroundColor= 'white';
     document.getElementById('btn-5').style.color= 'gray';
+    document.getElementById('btn-5').disabled= true;
     document.getElementById('p-5').innerText='you have completed'+ ' '+ openTitle.innerText+ ' '+ 'at' +' ' + getTime();
     document.getElementById('p-5').style.backgroundColor= '#e2e8f0';
     document.getElementById('p-5').style.fontSize= '14px';
@@ -118,6 +123,7 @@ document.getElementById('btn-6').addEventListener('click',function(){
     alert('Board updated Successfully.');
     document.getElementById('btn-6').style.backgroundColor= 'white';
     document.getElementById('btn-6').style.color= 'gray';
+    document.getElementById('btn-6').disabled= true;
     document.getElementById('p-6').innerText='you have completed'+ ' '+ jobTitle.innerText+ ' '+ 'at' +' ' + getTime();
     document.getElementById('p-6').style.backgroundColor= '#e2e8f0';
     document.getElementById('p-6').style.fontSize= '14px';
